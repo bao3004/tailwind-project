@@ -34,3 +34,25 @@ Tạo 1 repo trên github và copy đường dẫn
 > git add .
 > git commit -m "Hi"
 > git push origin master
+
+## CÁC LỆNH THƯỜNG DÙNG
+1. Lệnh đơn
+> uppercase: viết hoa hết
+> gap-1: khoảng cách giữa các ptu con
+> mx-auto: tự động căn giữa các phần tử bên trong trên trục x (ngang)
+> my-4: margin left + right = 4x4 = 16pixel (1 số tăng dần trong tailwind là 4pixel)
+> inline-block: nằm cùng dòng với phần tử cùng cấp
+> font-[name]: đổi font chữ, name ở đây đã được define ở tailwind.config.js
+> hidden: ẩn (thường kết hợp với screen lg,xl,2xl,...) lg là screen máy tính full HD
+
+2. Lệnh dài
+> flex flex-row justify-between items-center: xếp các ptu theo chiều ngang, nằm giữa căn đều trái phải, xếp giữa trên dưới
+> basis 1/6: đặt tỉ lệ cho mỗi phần tử con bên trong flex
+> hover:text-gray-500 ease-in duration-100: hiệu ứng trỏ chuột + độ mượt (in/linear/out/in-out) + thời gian effect
+> relative after:absolute after:w-0 after:h-0.5 after:left-0 after:top-1/2 after:bg-gray-800 
+  hover:after:w-full after:transition-all after:ease-in-out: tạo 1 after có chiều w,h,color và vị trí cắt ngang text khi hover
+> 
+
+## Lưu ý:
+1. Cách thêm font mới vào dự án
+copy mục import của google font -> paste vào đầu file src/tailwind.css
