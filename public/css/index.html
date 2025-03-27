@@ -11,13 +11,15 @@
 
 <body>
     <div id="root">
-        <div class="content-wrapper font-Karla bg-slate-500 max-w-screen-xl mx-auto p-4">
+        <div class="content-wrapper font-Karla max-w-screen-xl mx-auto p-4">
+            <!--header-->
             <header class="mx-5 p-6">
                 <nav class="flex flex-row justify-between items-center relative">
-                    <div class="logo basis-2/6 text-center text-2xl font-black cursor-pointer">Logo</div>
+                    <div class="logo basis-1/6 text-left text-2xl font-black cursor-pointer">Logo</div>
 
                     <!-- nav-bar -->
-                    <ul id="top-menu" class="basis-3/6 hidden lg:flex lg:flex-row lg:justify-end lg:gap-8 text-sm uppercase ">
+                    <ul id="top-menu"
+                        class="basis-4/6 hidden lg:flex lg:flex-row lg:justify-center lg:gap-8 text-sm uppercase ">
                         <li class="top-nav-item">
                             <a href="" class="">Home</a>
                         </li>
@@ -39,7 +41,7 @@
                     </ul>
 
                     <!-- cart -->
-                    <ul class="basis 3/6 flex justify-end lg:justify-start text-sm uppercase items-center ml-16 ">
+                    <ul class="basis 1/6 flex justify-end lg:justify-start text-sm uppercase items-center ml-16 ">
                         <li class="top-nav-item">
                             <a href="" class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -55,8 +57,8 @@
 
                     <!-- menu -->
                     <div class="basis 1/6 lg:hidden px-4 sm:px-2">
-                        <svg id="dropdown" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-6">
+                        <svg id="dropdown" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
@@ -64,8 +66,28 @@
                     </div>
                 </nav>
             </header>
+
             <main>
-                <div class="slider">Slider</div> <!--End slider-->
+                <div class="slider h-[530px] bg-[url('../img/coffee-bg.jpg')] bg-cover bg-no-repeat bg-center">
+                    <div class="w-full h-full flex justify-center items-center bg-gray-500 bg-opacity-50 ">
+                        <div class="text-white text-center">
+                            <div class=" my-4">Best place to buy design</div>
+                            <div class=" text-[50px] my-4">
+                                COFFEE MUGS
+                            </div>
+                            <div class=" my-5">The most versatile furniture systems ever created. Designed to fit your
+                                style, made to move and grow</div>
+                            <div class="flex justify-center items-center">
+                                <div
+                                    class="bg-white uppercase border-solid border-2 border-red-500 
+                                    text-black w-max tracking-wider py-4 px-6 text-sm font-medium cursor-pointer
+                                    hover:bg-opacity-50 transition-all duration-800">
+                                    Eplore Our Products
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--End slider-->
                 <div class="story">Story</div> <!--End story-->
                 <div class="feature">feature</div> <!--End feature-->
                 <div class="more-product">more-product</div> <!--End more-product-->

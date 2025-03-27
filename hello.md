@@ -44,13 +44,16 @@ Tạo 1 repo trên github và copy đường dẫn
 > inline-block: nằm cùng dòng với phần tử cùng cấp
 > font-[name]: đổi font chữ, name ở đây đã được define ở tailwind.config.js
 > hidden: ẩn (thường kết hợp với screen lg,xl,2xl,...) lg là screen máy tính full HD
+> bg-[url('../img/...')]: link tới background image  
+> text-center: cho các text căn giữa thẻ div
 
 2. Lệnh dài
 > flex flex-row justify-between items-center: xếp các ptu theo chiều ngang, nằm giữa căn đều trái phải, xếp giữa trên dưới
 > basis 1/6: đặt tỉ lệ cho mỗi phần tử con bên trong flex
 > hover:text-gray-500 ease-in duration-100: hiệu ứng trỏ chuột + độ mượt (in/linear/out/in-out) + thời gian effect
 > relative after:absolute after:w-0 after:h-0.5 after:left-0 after:top-1/2 after:bg-gray-800 
-  hover:after:w-full after:transition-all after:ease-in-out: tạo 1 after có chiều w,h,color và vị trí cắt ngang text khi hover
+  hover:after:w-full after:transition-all after:ease-in-out duration:1000: tạo 1 after có chiều w,h,color và vị trí cắt ngang text khi hover trong 1s
+> bg-[url('../img/coffee-bg.jpg')] bg-cover bg-no-repeat bg-center: căn bức hình ở giữa thẻ div
 > 
 
 ## Lưu ý:
