@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./public/css/tailwind.css --watch",
+    "force": "git add . && git commint --amend && git push"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
   }
