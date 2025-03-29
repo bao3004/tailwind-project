@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* nav bar + dropdown */
 .top-nav-item {
   @apply cursor-pointer hover:text-gray-800 relative after:lg:absolute after:lg:w-0  after:lg:h-0.5
   hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:bg-gray-800 after:lg:left-0 after:lg:top-1/2;
@@ -14,3 +15,15 @@
   @apply absolute z-50 bg-red-500 text-center animate-slideDown p-11 top-10 left-0 w-full;
 }
 
+/* sub headline */
+.sud-headline {
+  @apply flex justify-center items-center mb-24;
+}
+
+.sub-headline-deco-line {
+  @apply w-8 h-px bg-gray-600;
+}
+
+.sub-headline-deco {
+  @apply uppercase mx-4 tracking-widest text-gray-600 text-sm;
+}
