@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build:css": "tailwindcss -i ./src/tailwind.css -o ./public/css/tailwind.css --watch",
-    "force": "git add . && git commint --amend && git push"
+    "force": "git add . && git commit --amend --no-edit && git push origin master -f"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"

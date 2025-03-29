@@ -81,3 +81,4 @@
 
 1. Cách thêm font mới vào dự án
    copy mục import của google font -> paste vào đầu file src/tailwind.css
+2. Cài "build:css": "tailwindcss -i ./src/tailwind.css -o ./public/css/tailwind.css --watch" bên trong file package.json và khởi chạy mỗi khi mở VSC.
